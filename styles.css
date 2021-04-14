@@ -338,6 +338,8 @@ padding:5px;
   width: 70%;
   border-radius: 20px;
   box-shadow: 20px;
+  padding: 5px;
+  box-decoration-break: inherit;
 
 }
 
@@ -373,7 +375,7 @@ padding:5px;
 
 
 #banner{
-  background: linear-gradient(rgba(0, 0, 0, 0.5),#009688), url(https://dailyfamily.ng/wp-content/uploads/2018/07/church.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5),#009688), url(https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1536/https://thecophq.org/wp-content/uploads/2019/01/Thecop_hq-34-1536x1024.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -448,3 +450,17 @@ padding:5px;
 }
 
 /*image stlye after header ends here*/
+
+
+
+#subscription-email{
+  width: 400px;
+  height: 50px;
+  margin: auto;
+  
+}
+.btn subscribe-btn{
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+}
